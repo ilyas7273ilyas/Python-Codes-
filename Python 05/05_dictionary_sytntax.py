@@ -1,0 +1,12 @@
+a={
+    "key":"value",
+    'Me':'Noob',
+    "marks":"100",
+    "list":[1,2,9],
+    "anotherdict":{"you":'Player'}
+}
+print(a['key'])
+print(a['list'])
+a['Me']=[45,78]
+print(a['Me'])
+print(a['anotherdict']['you'])
